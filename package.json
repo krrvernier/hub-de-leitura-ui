@@ -1,0 +1,23 @@
+{
+  "name": "hub-de-leitura-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:3000/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krrvernier/hub-de-leitura-ui/issues"
+  },
+  "homepage": "https://github.com/krrvernier/hub-de-leitura-ui#readme",
+  "dependencies": {
+    "cypress": "^15.10.0"
+  }
+}
