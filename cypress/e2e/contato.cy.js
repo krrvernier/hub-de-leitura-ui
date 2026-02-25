@@ -1,8 +1,9 @@
+///<reference types="cypress"/>
 describe('Funcionalidade contato', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000/index.html')
+    cy.visit('index.html')
   });
-  
+
   it('Deve preencher formulario de contato com sucesso', () => {
     cy.get('[name="name"]').type('Ana Silva')
     cy.get('[name="email"]').type('anasilva@teste.com')
