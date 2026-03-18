@@ -32,4 +32,15 @@ describe('Funcionalidade:cadastro no hub de leitura', () => {
         cy.get('#user-name').should('contain', nome)
     });
 
+    it('Deve preencher casdastro - Usando Comandos Customizados', () => {
+        let email = `teste${Date.now()}@teste.com`
+        let nome = faker.person.fullName()
+        cy.preencherCadastro(
+            nome,
+            email,
+            '1133445566',
+            'senha123',
+            'senha123',
+        )
+    })
 })
